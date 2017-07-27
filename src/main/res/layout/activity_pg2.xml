@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivanika.health.pg2">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:background="#006064"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+
+        <ImageView android:src="@drawable/backarrow"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:text="Find and Book" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_weight="9"
+            android:text="Location" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+
+        <ImageView android:src="@drawable/find"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Specialities,symptoms,treatments...." />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/layout4"
+        android:id="@+id/layout2"
+        android:layout_width="50dp"
+        android:orientation="vertical"
+        android:layout_height="500dp">
+
+        <ImageView android:src="@drawable/dentist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/gyno2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/homeo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/ayur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/cardio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/ent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/layout2"
+        android:layout_below="@+id/layout4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/layout3"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="500dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Dentist" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Gynecologist" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Homeopath" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Ayurveda" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Cardiologist" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Ear-Nose-Throat(ENT)Specialist" />
+
+    </LinearLayout>
+
+</RelativeLayout>

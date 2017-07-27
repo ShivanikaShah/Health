@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivanika.health.admin_main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#B2DFDB"
+            android:text="Active Users" />
+
+        <ImageView android:src="@drawable/user11"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#B2DFDB"
+            android:text="Doctor's Pharmacy " />
+
+
+        <ImageView android:src="@drawable/docpharma11"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#006064"
+            android:padding="1dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#B2DFDB"
+            android:text="Feedback" />
+
+
+
+        <ImageView android:src="@drawable/feedback11"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:layout_padding="2dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</ScrollView>

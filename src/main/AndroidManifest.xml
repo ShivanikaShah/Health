@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shivanika.health">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login_patient">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup_patient" />
+        <activity android:name=".main_patient" />
+        <activity android:name=".otp" />
+        <activity android:name=".DoctorLogin" />
+        <activity android:name=".doctor_signUP" />
+        <activity android:name=".Pathlabs_login" />
+        <activity android:name=".pharmacy_login" />
+        <activity android:name=".admin_login" />
+        <activity android:name=".admin_signUP" />
+        <activity android:name=".admin_main" />
+        <activity android:name=".doctor_patient" />
+        <activity android:name=".record_patient" />
+        <activity android:name=".pharmacy_patient" />
+        <activity android:name=".pathology_patient" />
+        <activity android:name=".map_patient" />
+        <activity android:name=".pg1" />
+        <activity android:name=".pg2"></activity>
+    </application>
+
+</manifest>

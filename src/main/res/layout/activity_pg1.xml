@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivanika.health.pg1">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+    <ImageView android:src="@drawable/find"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView android:src="@drawable/consult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView android:src="@drawable/order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView android:src="@drawable/me"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/layout1"
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="20dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Find" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Consult" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Order" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Me" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/layout2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:background="#006064"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:text="Records" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Reminders" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Profile" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/layout3"
+        android:id="@+id/layout4"
+        android:layout_width="50dp"
+        android:orientation="vertical"
+        android:layout_height="500dp">
+
+    <ImageView android:src="@drawable/mydoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/consultqueries"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView android:src="@drawable/healthinterests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/savedart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView android:src="@drawable/myorders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/mypref"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/layout4"
+        android:layout_below="@+id/layout3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/layout5"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="500dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="My doctors" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Consult Queries" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Health Interests" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Saved Articles" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="My Orders" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="My Preferences" />
+
+    </LinearLayout>
+
+</RelativeLayout>
